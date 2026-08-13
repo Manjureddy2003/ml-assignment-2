@@ -1,0 +1,110 @@
+{
+  "project_title": "TumorScope ML Classification Studio",
+  "dataset_name": "Breast Cancer Wisconsin (Diagnostic)",
+  "dataset_source": "https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic",
+  "dataset_instances": 569,
+  "dataset_features": 30,
+  "target_column": "target",
+  "target_mapping": {
+    "0": "Benign",
+    "1": "Malignant"
+  },
+  "positive_class": "Malignant (1)",
+  "feature_names": [
+    "mean_radius",
+    "mean_texture",
+    "mean_perimeter",
+    "mean_area",
+    "mean_smoothness",
+    "mean_compactness",
+    "mean_concavity",
+    "mean_concave_points",
+    "mean_symmetry",
+    "mean_fractal_dimension",
+    "radius_error",
+    "texture_error",
+    "perimeter_error",
+    "area_error",
+    "smoothness_error",
+    "compactness_error",
+    "concavity_error",
+    "concave_points_error",
+    "symmetry_error",
+    "fractal_dimension_error",
+    "worst_radius",
+    "worst_texture",
+    "worst_perimeter",
+    "worst_area",
+    "worst_smoothness",
+    "worst_compactness",
+    "worst_concavity",
+    "worst_concave_points",
+    "worst_symmetry",
+    "worst_fractal_dimension"
+  ],
+  "train_rows": 455,
+  "test_rows": 114,
+  "test_size": 0.2,
+  "random_state": 42,
+  "models": [
+    "Logistic Regression",
+    "Decision Tree",
+    "K-Nearest Neighbors",
+    "Gaussian Naive Bayes",
+    "Random Forest",
+    "Support Vector Machine"
+  ],
+  "overall_winner_rule": "Highest MCC, then F1, AUC, and Accuracy",
+  "overall_winner": "Support Vector Machine",
+  "sklearn_version": "1.8.0",
+  "metrics": {
+    "Logistic Regression": {
+      "Accuracy": 0.97368421,
+      "AUC": 0.99537037,
+      "Precision": 0.97560976,
+      "Recall": 0.95238095,
+      "F1": 0.96385542,
+      "MCC": 0.94333976
+    },
+    "Decision Tree": {
+      "Accuracy": 0.90350877,
+      "AUC": 0.8979828,
+      "Precision": 0.8974359,
+      "Recall": 0.83333333,
+      "F1": 0.86419753,
+      "MCC": 0.79083064
+    },
+    "K-Nearest Neighbors": {
+      "Accuracy": 0.95614035,
+      "AUC": 0.98346561,
+      "Precision": 0.97435897,
+      "Recall": 0.9047619,
+      "F1": 0.9382716,
+      "MCC": 0.90582387
+    },
+    "Gaussian Naive Bayes": {
+      "Accuracy": 0.92105263,
+      "AUC": 0.9890873,
+      "Precision": 0.92307692,
+      "Recall": 0.85714286,
+      "F1": 0.88888889,
+      "MCC": 0.82916172
+    },
+    "Random Forest": {
+      "Accuracy": 0.97368421,
+      "AUC": 0.9973545,
+      "Precision": 1.0,
+      "Recall": 0.92857143,
+      "F1": 0.96296296,
+      "MCC": 0.94415495
+    },
+    "Support Vector Machine": {
+      "Accuracy": 0.98245614,
+      "AUC": 0.99503968,
+      "Precision": 1.0,
+      "Recall": 0.95238095,
+      "F1": 0.97560976,
+      "MCC": 0.9626219
+    }
+  }
+}

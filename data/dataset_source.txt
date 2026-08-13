@@ -1,0 +1,5 @@
+Dataset: Breast Cancer Wisconsin (Diagnostic)
+Source: https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic
+Rows: 569
+Features: 30 real-valued predictors
+Project target mapping: 0=Benign, 1=Malignant

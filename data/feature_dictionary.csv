@@ -1,0 +1,31 @@
+feature_name,feature_group,description
+mean_radius,Mean,Mean value computed across the segmented cell nuclei.
+mean_texture,Mean,Mean value computed across the segmented cell nuclei.
+mean_perimeter,Mean,Mean value computed across the segmented cell nuclei.
+mean_area,Mean,Mean value computed across the segmented cell nuclei.
+mean_smoothness,Mean,Mean value computed across the segmented cell nuclei.
+mean_compactness,Mean,Mean value computed across the segmented cell nuclei.
+mean_concavity,Mean,Mean value computed across the segmented cell nuclei.
+mean_concave_points,Mean,Mean value computed across the segmented cell nuclei.
+mean_symmetry,Mean,Mean value computed across the segmented cell nuclei.
+mean_fractal_dimension,Mean,Mean value computed across the segmented cell nuclei.
+radius_error,Standard Error,Standard error of the corresponding measurement.
+texture_error,Standard Error,Standard error of the corresponding measurement.
+perimeter_error,Standard Error,Standard error of the corresponding measurement.
+area_error,Standard Error,Standard error of the corresponding measurement.
+smoothness_error,Standard Error,Standard error of the corresponding measurement.
+compactness_error,Standard Error,Standard error of the corresponding measurement.
+concavity_error,Standard Error,Standard error of the corresponding measurement.
+concave_points_error,Standard Error,Standard error of the corresponding measurement.
+symmetry_error,Standard Error,Standard error of the corresponding measurement.
+fractal_dimension_error,Standard Error,Standard error of the corresponding measurement.
+worst_radius,Worst,Largest or most extreme value among the measured nuclei.
+worst_texture,Worst,Largest or most extreme value among the measured nuclei.
+worst_perimeter,Worst,Largest or most extreme value among the measured nuclei.
+worst_area,Worst,Largest or most extreme value among the measured nuclei.
+worst_smoothness,Worst,Largest or most extreme value among the measured nuclei.
+worst_compactness,Worst,Largest or most extreme value among the measured nuclei.
+worst_concavity,Worst,Largest or most extreme value among the measured nuclei.
+worst_concave_points,Worst,Largest or most extreme value among the measured nuclei.
+worst_symmetry,Worst,Largest or most extreme value among the measured nuclei.
+worst_fractal_dimension,Worst,Largest or most extreme value among the measured nuclei.

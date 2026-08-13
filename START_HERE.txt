@@ -1,0 +1,27 @@
+ML ASSIGNMENT 2 - START HERE
+
+1. Open README.md and understand the dataset, models, metrics, and observations.
+2. Edit student_config.json with your name and BITS ID.
+3. Install dependencies:
+   python -m pip install -r requirements-dev.txt
+4. Rebuild models and verify output:
+   python -m model.train_models
+   Expected: a six-row metric table ending with "Training complete".
+5. Run tests:
+   pytest -q
+   Expected: 6 passed.
+6. Start the app:
+   streamlit run app.py
+   Expected: upload control, model dropdown, metrics, confusion matrix,
+   classification report, all-model comparison, and prediction download.
+7. Create your GitHub repository and deploy app.py on Streamlit Community Cloud.
+8. Replace GitHub and Streamlit placeholders in student_config.json and README.md.
+9. Run the project on BITS Virtual Lab and save one genuine screenshot as:
+   report/bits_virtual_lab_screenshot.png
+10. Rebuild the editable report and PDF:
+    python tools/build_submission_report.py
+11. Open report/submission_report.pdf and confirm links, screenshot, tables,
+    student details, and final checklist before submission.
+
+Do not submit the ZIP unchanged. Personalize the UI and rewrite observations in
+your own words so you can explain every part during evaluation.
