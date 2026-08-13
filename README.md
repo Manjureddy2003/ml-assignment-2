@@ -34,7 +34,7 @@ The positive class for Precision, Recall, F1, and AUC is **Malignant (1)**.
 
 ## c. Submission links
 
-- **GitHub Repository Link:** REPLACE WITH YOUR GITHUB REPOSITORY URL
+- **GitHub Repository Link:** https://github.com/Manjureddy2003/ml-assignment-2
 - **Live Streamlit App Link:** REPLACE WITH YOUR LIVE STREAMLIT URL
 - **BITS Virtual Lab Screenshot:** Insert the screenshot in `report/submission_report.docx`, then regenerate the PDF.
 
