@@ -7,3 +7,4 @@ venv/
 .DS_Store
 report/_rendered/
 report/*.tmp
+~$*.docx
